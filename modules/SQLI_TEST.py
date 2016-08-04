@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 # coding:utf-8
 from lib.request_util import *
+import variable
 import time
 
 def check_sqli_usecase(info,domain,method,i):
