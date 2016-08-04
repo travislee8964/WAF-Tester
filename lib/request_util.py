@@ -1,4 +1,4 @@
-#! /usr/bin/env python 
+#! /usr/bin/env python
 # coding:utf-8
 
 import urllib,urllib2,socket
@@ -17,8 +17,8 @@ def send_req_get(url,params=None,headers=None):
                 res = response.getcode()
         except urllib2.HTTPError,e:
                 res = e.code
-				pass
-		
+                pass
+
         return res
 
 def send_req_post(url,params=None,headers=None):
