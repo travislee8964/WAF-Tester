@@ -7,6 +7,7 @@
 /etc/httpd/conf/httpd.conf
 /etc/redhat-release
 /etc/passwd
+/etc/shadow
 /etc/rc.d
 /root/.bash_profile
 /root/.bashrc
@@ -17,7 +18,7 @@
 /etc/ftpphosts
 /etc/ftpaccess
 /etc/exports
-/etc/vsftpd/vsftpd.conf 
+/etc/vsftpd/vsftpd.conf
 /etc/crontab
 boot.ini
 test.mdb
@@ -35,4 +36,3 @@ test.inc
 Web_Data_User.config
 web.config
 app.config
-
